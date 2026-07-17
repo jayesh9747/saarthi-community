@@ -1,0 +1,55 @@
+name: 💬 Feedback
+description: Tell us what worked, what didn't, or what confused you.
+title: "[Feedback]: "
+labels: ["feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. Blunt feedback is more useful than polite feedback —
+        if Saarthi wasted your time, say so and we'll fix it.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: What is this about?
+      options:
+        - Project recommendations
+        - Starter issues
+        - Proposal outline / apply kit
+        - Connecting my AI agent (MCP setup)
+        - Onboarding / GitHub sync
+        - The website
+        - Something else
+    validations:
+      required: true
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What were you trying to do, and what did Saarthi give you?
+      placeholder: I asked for LFX projects matching Go and Kubernetes, and…
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect instead?
+    validations:
+      required: false
+
+  - type: input
+    id: client
+    attributes:
+      label: Which AI client were you using?
+      placeholder: Cursor / Claude Code / Codex / VS Code / Windsurf / Zed
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        **Please don't paste secrets.** No access tokens, no `Authorization: Bearer …` headers.
+        Issues here are public.
