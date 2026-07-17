@@ -1,0 +1,4 @@
+# Adds a "Sponsor" button to the repo.
+# NOTE: this only renders once GitHub Sponsors is actually enabled for the account
+# at https://github.com/sponsors — until then GitHub silently ignores the entry.
+github: [jayesh9747]
