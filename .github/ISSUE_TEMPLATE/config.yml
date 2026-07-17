@@ -1,0 +1,9 @@
+# Keep blank issues off so everything arrives structured.
+blank_issues_enabled: false
+contact_links:
+  - name: 📧 Email the maintainer
+    url: mailto:jsavaliya.tech@gmail.com
+    about: For anything you would rather not discuss in a public issue.
+  - name: 🔒 Report a security issue
+    url: mailto:jsavaliya.tech@gmail.com
+    about: Please report vulnerabilities privately by email — do not open a public issue.
