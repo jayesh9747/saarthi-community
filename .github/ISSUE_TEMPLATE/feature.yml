@@ -1,0 +1,32 @@
+name: ✨ Feature request
+description: Suggest something Saarthi should do.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you hitting?
+      description: Describe the situation, not the solution — it helps us find better answers.
+      placeholder: I never know whether my proposal is good enough before I submit it…
+    validations:
+      required: true
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like Saarthi to do?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: program
+    attributes:
+      label: Which program does this relate to?
+      options:
+        - CNCF LFX Mentorship
+        - Google Summer of Code
+        - C4GT
+        - All / not program-specific
+    validations:
+      required: false
