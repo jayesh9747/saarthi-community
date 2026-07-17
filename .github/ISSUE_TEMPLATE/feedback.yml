@@ -44,7 +44,7 @@ body:
     id: client
     attributes:
       label: Which AI client were you using?
-      placeholder: Cursor / Claude Code / Codex / VS Code / Windsurf / Zed
+      placeholder: Antigravity / Cursor / Claude Code / Codex / VS Code / Windsurf
     validations:
       required: false
 
